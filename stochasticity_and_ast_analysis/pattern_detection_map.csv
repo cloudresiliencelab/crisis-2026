@@ -1,0 +1,5 @@
+code_id,section,primary_strategy,notes
+C003,Location,hybrid,"Masked regex + AST; optional same-function proximity with location APIs"
+C006,Location,hybrid,"Masked regex + AST call_expression for requestLocationUpdates"
+C058,Overlay,hybrid,"Masked regex for SYSTEM_ALERT_WINDOW (comments excluded)"
+C059,Overlay,hybrid,"Masked regex + optional same-function proximity with WindowManager/addView/LayoutParams"

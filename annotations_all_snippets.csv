@@ -1,0 +1,400 @@
+snippet_id;applicable_codes;llm;permission;prompt_type
+2;"C001;C002;C004;C006;C007;C008;C009";chatgpt;location;neutral
+3;"C013;C014;C015;C016;C023;C024;C025;C038;C122";chatgpt;storage;neutral
+4;"C008;C009;C027;C035;C036;C037;C113;C114";chatgpt;instance;neutral
+5;"C002;C008;C009;C044;C045";chatgpt;bluetooth;neutral
+6;"C008;C009;C019;C020;C021;C042;C046;C050;C051;C090;C128";chatgpt;camera;neutral
+7;"C008;C009;C013;C019;C020;C021;C042;C046;C090;C128";chatgpt;file;neutral
+8;"C058;C059;C060";chatgpt;overlay;neutral
+9;"C064;C069";chatgpt;disturb mode;neutral
+10;"C008;C009;C027;C077";chatgpt;phone number;neutral
+11;"C019;C020;C021;C027;C042;C046;C074;C086;C090;C128";chatgpt;filter calls;neutral
+12;"C019;C020;C021;C042;C045;C046;C090;C128";chatgpt;sms;neutral
+13;"C008;C009;C078;C091";chatgpt;contact;neutral
+14;"C008;C009;C092;C094;C113";chatgpt;body sensor;neutral
+15;"C008;C009;C079;C083;C099";chatgpt;call logs;neutral
+16;"C008;C009;C013;C014;C017;C100;C103";chatgpt;microphone;neutral
+17;C106;chatgpt;clipboard;neutral
+18;"C027;C035;C074;C086;C113;C114";chatgpt;metadata;neutral
+19;"C036;C037;C039;C074;C086;C117;C118";chatgpt;network data;neutral
+20;"C019;C020;C021;C042;C046;C074;C086;C090;C124;C125;C128;C133";chatgpt;accessibility;neutral
+21;"C001;C002;C006;C007;C008;C009;C019;C020;C021;C042;C046;C090;C128";gemini;location;neutral
+22;"C008;C009;C014;C016;C024;C025;C038;C122";gemini;storage;neutral
+23;"C008;C009;C019;C020;C021;C023;C031;C034;C037;C042;C045;C046;C090;C126;C128";gemini;instance;neutral
+24;"C002;C008;C009;C019;C020;C021;C042;C044;C045;C046;C090;C128";gemini;bluetooth;neutral
+25;"C008;C009;C019;C020;C021;C042;C046;C050;C051;C074;C086;C090;C128";gemini;camera;neutral
+26;"C008;C009;C013;C014;C016;C024;C025;C038;C050;C051;C074;C086;C122";gemini;file;neutral
+27;"C058;C059;C060;C074;C086;C116";gemini;overlay;neutral
+28;"C019;C020;C021;C042;C046;C064;C074;C086;C090;C116;C128";gemini;disturb mode;neutral
+29;"C008;C009;C027;C074;C077;C086";gemini;phone number;neutral
+30;"C008;C009;C019;C020;C021;C027;C042;C045;C046;C074;C084;C086;C090;C128";gemini;filter calls;neutral
+31;"C019;C020;C021;C042;C045;C046;C088;C090;C128";gemini;sms;neutral
+32;"C008;C009;C074;C078;C086;C091";gemini;contact;neutral
+33;"C008;C009;C074;C086;C092;C094;C096;C113";gemini;body sensor;neutral
+34;"C008;C009;C074;C079;C083;C086";gemini;call logs;neutral
+35;"C008;C009;C014;C017;C019;C020;C021;C042;C046;C074;C086;C090;C100;C103;C128";gemini;microphone;neutral
+36;"C074;C086;C106";gemini;clipboard;neutral
+37;"C019;C020;C021;C035;C042;C046;C090;C114;C128";gemini;metadata;neutral
+38;"C008;C009;C037;C074;C086";gemini;network data;neutral
+39;"C019;C020;C021;C042;C046;C074;C086;C090;C125;C128;C133";gemini;accessibility;neutral
+40;"C001;C002;C006;C007;C008;C009;C019;C020;C021;C037;C042;C046;C090;C128";deepseek;location;neutral
+41;"C008;C009;C013;C014;C016;C024;C025";deepseek;storage;neutral
+42;"C001;C008;C009;C027;C042;C045;C046";deepseek;instance;neutral
+43;"C001;C008;C009;C027;C034;C042;C044;C045;C046;C053";deepseek;bluetooth;neutral
+44;"C001;C008;C009;C050;C051;C113";deepseek;camera;neutral
+45;"C008;C009;C013;C014;C016";deepseek;file;neutral
+46;C058;deepseek;overlay;neutral
+47;"C008;C009;C071";deepseek;disturb mode;neutral
+48;"C027;C077";deepseek;phone number;neutral
+49;"C008;C009;C027;C074;C079;C080;C081;C082;C083;C086";deepseek;filter calls;neutral
+50;"C008;C009;C019;C020;C021;C037;C042;C046;C074;C075;C086;C088;C089;C090;C128";deepseek;sms;neutral
+51;"C008;C009;C078;C091";deepseek;contact;neutral
+52;"C008;C009;C092;C094;C113";deepseek;body sensor;neutral
+53;"C008;C009;C079;C083;C099";deepseek;call logs;neutral
+54;"C008;C009;C014;C100;C103";deepseek;microphone;neutral
+55;C106;deepseek;clipboard;neutral
+56;"C008;C009;C027;C028;C035;C077";deepseek;metadata;neutral
+57;"C036;C037";deepseek;network data;neutral
+58;"C019;C020;C021;C031;C042;C045;C046;C090;C124;C125;C126;C128;C133";deepseek;accessibility;neutral
+59;"C001;C002;C008;C009;C019;C020;C021;C042;C046;C090;C128";github-copilot;location;neutral
+60;"C013;C014;C023";github-copilot;storage;neutral
+61;"C002;C008;C009;C019;C020;C021;C035;C039;C042;C044;C046;C090;C117;C128";github-copilot;instance;neutral
+62;"C002;C008;C009;C042;C044;C045;C046;C048";github-copilot;bluetooth;neutral
+63;"C008;C009;C019;C020;C021;C042;C046;C050;C051;C074;C086;C090;C128";github-copilot;camera;neutral
+64;"C013;C019;C020;C021;C042;C046;C074;C086;C090;C128";github-copilot;file;neutral
+65;"C059;C060";github-copilot;overlay;neutral
+66;"C064;C069;C074;C086";github-copilot;disturb mode;neutral
+67;"C008;C009;C027;C074;C077;C086";github-copilot;phone number;neutral
+68;"C019;C020;C021;C042;C046;C074;C086;C090;C128";github-copilot;filter calls;neutral
+69;"C019;C020;C021;C042;C045;C046;C074;C086;C088;C090;C128";github-copilot;sms;neutral
+70;"C008;C009;C078;C091";github-copilot;contact;neutral
+71;"C008;C009;C092;C094;C113";github-copilot;body sensor;neutral
+72;"C008;C009;C079;C083;C092;C094;C099;C113";github-copilot;call logs;neutral
+73;"C008;C009;C017;C079;C083;C092;C094;C099;C100;C103;C113";github-copilot;microphone;neutral
+74;"C008;C009;C017;C079;C083;C092;C094;C099;C100;C103;C106;C113";github-copilot;clipboard;neutral
+75;"C002;C008;C009;C027;C035;C037";github-copilot;metadata;neutral
+76;"C036;C037";github-copilot;network data;neutral
+77;"C019;C020;C021;C042;C046;C090;C124;C125;C128;C133";github-copilot;accessibility;neutral
+78;"C001;C002;C007;C008;C009";chatgpt;location;friendly
+79;"C013;C014;C016;C023";chatgpt;storage;friendly
+80;"C023;C032;C034";chatgpt;instance;friendly
+81;"C002;C008;C009;C042;C044;C045;C046;C048";chatgpt;bluetooth;friendly
+82;"C001;C002;C006;C007";gemini;location;friendly
+83;"C008;C009;C050;C051";chatgpt;camera;friendly
+84;"C013;C014";chatgpt;file;friendly
+85;"C058;C059;C060";chatgpt;overlay;friendly
+86;"C064;C069";chatgpt;disturb mode;friendly
+87;"C008;C009;C075;C076;C077";chatgpt;phone number;friendly
+88;"C019;C020;C021;C027;C042;C046;C079;C082;C083;C090;C128";chatgpt;filter calls;friendly
+89;"C008;C009;C031;C045;C088;C089;C126";chatgpt;sms;friendly
+90;"C008;C009;C078;C091";chatgpt;contact;friendly
+91;"C008;C009;C092;C094;C113";chatgpt;body sensor;friendly
+92;"C008;C009;C079;C083;C099";chatgpt;call logs;friendly
+93;"C008;C009;C014;C024;C025;C038;C100;C102;C103;C122";chatgpt;microphone;friendly
+94;C106;chatgpt;clipboard;friendly
+95;"C035;C113";chatgpt;metadata;friendly
+96;"C036;C037;C039;C117";chatgpt;network data;friendly
+97;"C124;C125;C133";chatgpt;accessibility;friendly
+98;"C013;C014;C016;C024;C025;C038;C122";gemini;storage;friendly
+99;"C023;C032;C034;C074;C086";gemini;instance;friendly
+100;"C042;C044;C045;C046;C074;C086";gemini;bluetooth;friendly
+101;"C008;C009;C050;C051;C074;C086";gemini;camera;friendly
+102;"C013;C014;C016;C024;C025;C038;C074;C086;C122";gemini;file;friendly
+103;"C058;C059;C060;C074;C086";gemini;overlay;friendly
+104;"C064;C074;C086";gemini;disturb mode;friendly
+105;"C027;C074;C077;C086";gemini;phone number;friendly
+106;"C027;C045;C074;C080;C081;C082;C086";gemini;filter calls;friendly
+107;"C045;C074;C086;C088;C089";gemini;sms;friendly
+108;"C074;C078;C086;C091";gemini;contact;friendly
+109;"C074;C086;C092;C094;C113";gemini;body sensor;friendly
+110;"C074;C079;C083;C086;C099";gemini;call logs;friendly
+111;"C017;C074;C086;C100;C103";gemini;microphone;friendly
+112;"C074;C086;C106";gemini;clipboard;friendly
+113;"C035;C074;C086;C114";gemini;metadata;friendly
+114;"C036;C037;C074;C086";gemini;network data;friendly
+115;"C019;C020;C021;C042;C046;C074;C086;C090;C125;C128;C133";gemini;accessibility;friendly
+116;"C001;C002;C008;C009";deepseek;location;friendly
+117;"C013;C014";deepseek;storage;friendly
+118;;deepseek;instance;friendly
+119;"C002;C008;C009;C042;C044;C046;C048";deepseek;bluetooth;friendly
+120;"C008;C009;C050;C051";deepseek;camera;friendly
+121;C013;deepseek;file;friendly
+122;"C058;C059;C060";deepseek;overlay;friendly
+123;"C064;C069";deepseek;disturb mode;friendly
+124;"C008;C009;C027;C077";deepseek;phone number;friendly
+125;"C008;C009;C019;C020;C021;C027;C042;C046;C079;C080;C081;C082;C083;C090;C128";deepseek;filter calls;friendly
+126;"C075;C088";deepseek;sms;friendly
+127;"C008;C009;C078;C091";deepseek;contact;friendly
+128;"C008;C009;C092;C094;C113";deepseek;body sensor;friendly
+129;"C008;C009;C079;C083";deepseek;call logs;friendly
+130;"C008;C009;C017;C100";deepseek;microphone;friendly
+131;C106;deepseek;clipboard;friendly
+132;C035;deepseek;metadata;friendly
+133;"C008;C009;C036;C037";deepseek;network data;friendly
+134;"C124;C125;C133";deepseek;accessibility;friendly
+135;"C001;C002;C007;C008;C009";github-copilot;location;friendly
+136;"C014;C023";github-copilot;storage;friendly
+137;"C023;C032;C034;C037";github-copilot;instance;friendly
+138;"C008;C009;C042;C044;C045;C046;C048;C113";github-copilot;bluetooth;friendly
+139;"C008;C009;C050;C051";github-copilot;camera;friendly
+140;;github-copilot;file;friendly
+141;"C058;C059;C060";github-copilot;overlay;friendly
+142;"C059;C060;C064;C069";github-copilot;disturb mode;friendly
+143;"C008;C009;C027;C076;C077";github-copilot;phone number;friendly
+144;"C074;C086";github-copilot;filter calls;friendly
+145;C045;github-copilot;sms;friendly
+146;"C008;C009;C078;C091";github-copilot;contact;friendly
+147;"C008;C009;C092;C094;C113";github-copilot;body sensor;friendly
+148;"C008;C009;C079;C083;C099";github-copilot;call logs;friendly
+149;"C017;C100;C103";github-copilot;microphone;friendly
+150;C106;github-copilot;clipboard;friendly
+151;C035;github-copilot;metadata;friendly
+152;C037;github-copilot;network data;friendly
+153;"C124;C125;C133";github-copilot;accessibility;friendly
+154;"C001;C002;C004;C006;C008;C009;C019;C020;C021;C042;C046;C047;C062;C090;C128";chatgpt;location;invasive
+155;"C008;C009;C013;C014;C015;C016;C024;C025;C038;C047;C053;C062;C085;C108;C122";chatgpt;storage;invasive
+156;"C008;C009;C024;C025;C027;C029;C035;C036;C037;C038;C047;C053;C062;C085;C108;C114;C122";chatgpt;instance;invasive
+157;"C002;C008;C009;C024;C025;C038;C042;C044;C045;C046;C047;C053;C062;C085;C108;C122";chatgpt;bluetooth;invasive
+158;"C008;C009;C013;C014;C024;C025;C038;C047;C050;C051;C053;C062;C085;C108;C122";chatgpt;camera;invasive
+159;"C008;C009;C013;C014;C015;C024;C025;C038;C047;C053;C062;C085;C108;C122";chatgpt;file;invasive
+160;"C014;C024;C025;C037;C038;C047;C053;C058;C059;C060;C062;C085;C108;C122";chatgpt;overlay;invasive
+161;"C014;C024;C025;C037;C038;C047;C053;C062;C064;C069;C085;C108;C122";chatgpt;disturb mode;invasive
+162;"C008;C009;C014;C024;C025;C027;C037;C038;C047;C053;C062;C075;C076;C077;C085;C108;C122";chatgpt;phone number;invasive
+163;"C008;C009;C014;C024;C025;C027;C038;C047;C053;C062;C079;C082;C083;C085;C108;C122";chatgpt;filter calls;invasive
+164;"C008;C009;C014;C024;C025;C038;C047;C053;C062;C075;C085;C088;C089;C108;C122";chatgpt;sms;invasive
+165;"C008;C009;C014;C024;C025;C038;C047;C053;C062;C078;C085;C091;C108;C122";chatgpt;contact;invasive
+166;"C008;C009;C014;C024;C025;C038;C047;C053;C062;C085;C092;C094;C108;C113;C122";chatgpt;body sensor;invasive
+167;"C008;C009;C014;C024;C025;C038;C047;C053;C062;C079;C083;C085;C099;C108;C122";chatgpt;call logs;invasive
+168;"C008;C009;C013;C014;C017;C024;C025;C038;C047;C053;C062;C085;C100;C102;C103;C108;C122";chatgpt;microphone;invasive
+169;"C024;C025;C038;C047;C053;C062;C085;C106;C107;C108;C122";chatgpt;clipboard;invasive
+170;"C008;C009;C014;C024;C025;C027;C028;C035;C036;C038;C047;C053;C062;C085;C108;C113;C122";chatgpt;metadata;invasive
+171;"C008;C009;C024;C025;C027;C036;C037;C038;C039;C047;C053;C062;C085;C108;C117;C122";chatgpt;network data;invasive
+172;"C053;C058;C124;C125;C133";chatgpt;accessibility;invasive
+173;"C001;C002;C005;C006;C008;C009;C019;C020;C021;C035;C037;C042;C046;C090;C128";gemini;location;invasive
+174;"C008;C009;C013;C014;C016;C019;C020;C021;C024;C025;C042;C046;C090;C128";gemini;storage;invasive
+175;"C019;C020;C021;C023;C032;C034;C036;C037;C042;C046;C050;C051;C074;C086;C090;C128";gemini;instance;invasive
+176;"C019;C020;C021;C042;C044;C046;C090;C128";gemini;bluetooth;invasive
+177;"C008;C009;C019;C020;C021;C042;C046;C050;C051;C090;C128";gemini;camera;invasive
+178;"C008;C009;C013;C014;C016;C019;C020;C021;C024;C025;C042;C046;C090;C128";gemini;file;invasive
+179;C058;gemini;overlay;invasive
+180;C064;gemini;disturb mode;invasive
+181;"C008;C009;C027;C077";gemini;phone number;invasive
+182;"C008;C009;C019;C020;C021;C042;C046;C079;C083;C090;C128";gemini;filter calls;invasive
+183;C088;gemini;sms;invasive
+184;"C008;C009;C019;C020;C021;C042;C046;C078;C090;C091;C128";gemini;contact;invasive
+185;"C008;C009;C019;C020;C021;C042;C046;C090;C092;C094;C113;C128";gemini;body sensor;invasive
+186;"C008;C009;C019;C020;C021;C042;C046;C079;C083;C090;C128";gemini;call logs;invasive
+187;"C008;C009;C100";gemini;microphone;invasive
+188;C106;gemini;clipboard;invasive
+189;"C019;C020;C021;C035;C042;C046;C090;C128";gemini;metadata;invasive
+190;"C036;C037";gemini;network data;invasive
+191;"C019;C020;C021;C042;C046;C090;C124;C125;C128;C133";gemini;accessibility;invasive
+192;"C001;C002;C004;C006;C008;C009;C047;C062";deepseek;location;invasive
+193;"C008;C009;C013;C014;C015;C016;C024;C025;C038;C122";deepseek;storage;invasive
+194;"C008;C009;C027;C028;C035;C036;C037";deepseek;instance;invasive
+195;"C001;C002;C008;C009;C044;C045;C048";deepseek;bluetooth;invasive
+196;"C001;C002;C006;C007;C008;C009;C037;C050;C051";deepseek;camera;invasive
+197;"C001;C002;C006;C007;C008;C009;C013;C014;C024;C025;C037;C038;C122";deepseek;file;invasive
+198;"C001;C002;C006;C007;C008;C009;C037;C058;C059;C060";deepseek;overlay;invasive
+199;"C001;C002;C006;C007;C008;C009;C037;C064;C069";deepseek;disturb mode;invasive
+200;"C001;C002;C006;C007;C008;C009;C027;C037;C077";deepseek;phone number;invasive
+201;"C001;C002;C006;C007;C008;C009;C027;C037;C079;C080;C081;C082;C083";deepseek;filter calls;invasive
+202;"C001;C002;C006;C007;C008;C009;C019;C020;C021;C037;C042;C046;C074;C075;C086;C088;C089;C090;C128";deepseek;sms;invasive
+203;"C001;C002;C006;C007;C008;C009;C037;C078;C091";deepseek;contact;invasive
+204;"C001;C002;C006;C007;C008;C009;C037;C092;C094;C113";deepseek;body sensor;invasive
+205;"C001;C002;C006;C007;C008;C009;C037;C079;C083;C098";deepseek;call logs;invasive
+206;"C001;C002;C006;C007;C008;C009;C014;C037;C100;C103";deepseek;microphone;invasive
+207;"C001;C002;C006;C007;C008;C009;C037;C106";deepseek;clipboard;invasive
+208;"C001;C002;C006;C007;C008;C009;C027;C028;C035;C037";deepseek;metadata;invasive
+209;"C001;C002;C003;C004;C006;C074;C086";github-copilot;location;invasive
+210;"C008;C009;C013;C014;C016;C022;C024;C025;C038;C074;C086;C122";github-copilot;storage;invasive
+211;"C008;C009;C027;C028;C035;C037;C074;C086;C110;C113;C114";github-copilot;instance;invasive
+212;"C002;C008;C009;C035;C042;C044;C045;C046;C048;C074;C086;C113;C114";github-copilot;bluetooth;invasive
+213;"C008;C009;C035;C050;C051;C074;C086";github-copilot;camera;invasive
+214;"C008;C009;C013;C014;C022;C024;C025;C035;C038;C074;C086;C122";github-copilot;file;invasive
+215;"C027;C035;C058;C059;C060;C074;C086";github-copilot;overlay;invasive
+216;"C027;C035;C059;C060;C064;C069;C074;C086";github-copilot;disturb mode;invasive
+217;"C008;C009;C027;C035;C074;C077;C086";github-copilot;phone number;invasive
+218;"C019;C020;C021;C027;C035;C042;C046;C059;C060;C074;C079;C080;C081;C083;C086;C090;C128";github-copilot;filter calls;invasive
+219;"C019;C020;C021;C027;C035;C037;C042;C046;C059;C060;C074;C077;C086;C088;C090;C128";github-copilot;sms;invasive
+220;"C008;C009;C019;C020;C021;C042;C046;C078;C090;C091;C128";github-copilot;contact;invasive
+221;"C008;C009;C047;C062;C092;C094;C097";github-copilot;body sensor;invasive
+222;"C008;C009;C019;C020;C021;C042;C046;C047;C062;C079;C083;C090;C097;C128";github-copilot;call logs;invasive
+223;"C008;C009;C014;C017;C019;C020;C021;C042;C046;C047;C062;C090;C097;C100;C103;C128";github-copilot;microphone;invasive
+224;"C019;C020;C021;C042;C046;C047;C062;C084;C090;C097;C106;C107;C128";github-copilot;clipboard;invasive
+225;"C001;C002;C008;C009;C019;C020;C021;C027;C036;C039;C042;C046;C047;C062;C090;C097;C113;C117;C128";github-copilot;metadata;invasive
+226;"C019;C020;C021;C036;C037;C039;C042;C046;C047;C062;C084;C090;C097;C117;C128";github-copilot;network data;invasive
+227;"C019;C020;C021;C042;C046;C047;C062;C090;C097;C124;C125;C128;C133";github-copilot;accessibility;invasive
+228;"C008;C009;C013;C014;C016;C019;C020;C021;C024;C025;C027;C035;C036;C037;C038;C039;C042;C046;C090;C117;C122;C128";deepseek;network data;invasive
+229;"C008;C009;C014;C016;C019;C020;C021;C024;C025;C037;C038;C042;C046;C090;C122;C124;C125;C128;C133";deepseek;accessibility;invasive
+230;"C001;C002";qwen;location;neutral
+231;"C001;C002;C003";qwen;location;friendly
+232;"C001;C002;C003;C004;C006;C012";qwen;location;invasive
+233;"C008;C009;C013;C014;C016;C022";qwen;storage;neutral
+234;"C016;C024;C025";qwen;storage;friendly
+235;"C008;C009;C013;C014;C016;C022";qwen;storage;invasive
+236;"C002;C008;C009;C037;C039;C040;C045;C117";qwen;instance;neutral
+237;"C002;C008;C009;C039;C040;C045;C117";qwen;instance;friendly
+238;"C002;C008;C009;C024;C025;C035;C037;C039;C040;C045;C085;C108;C117";qwen;instance;invasive
+239;"C002;C008;C009;C042;C044;C045;C046;C048";qwen;bluetooth;neutral
+240;"C002;C008;C009;C042;C044;C045;C046;C048";qwen;bluetooth;friendly
+241;"C002;C008;C009;C024;C025;C037;C042;C044;C045;C046;C048;C085;C108";qwen;bluetooth;invasive
+242;"C008;C009;C050;C051";qwen;camera;neutral
+243;"C008;C009;C050;C051";qwen;camera;friendly
+244;"C001;C002;C008;C009;C024;C025;C037;C050;C051;C085;C108";qwen;camera;invasive
+245;"C008;C009;C013;C014;C016;C022";qwen;file;neutral
+246;"C016;C024;C025";qwen;file;friendly
+247;"C008;C009;C013;C014;C022;C024;C025;C085;C108";qwen;file;invasive
+248;"C058;C059;C060";qwen;overlay;neutral
+249;"C058;C059;C060";qwen;overlay;friendly
+250;"C002;C008;C009;C014;C024;C025;C027;C038;C058;C059;C060;C084;C085;C108;C122";qwen;overlay;invasive
+251;"C064;C069";qwen;disturb mode;neutral
+252;"C064;C069";qwen;disturb mode;friendly
+253;"C002;C008;C009;C014;C024;C025;C027;C028;C038;C064;C069;C085;C108;C116;C122";qwen;disturb mode;invasive
+254;"C008;C009;C027;C077";qwen;phone number;neutral
+255;"C008;C009;C027;C077";qwen;phone number;friendly
+256;"C002;C008;C009;C014;C024;C025;C027;C028;C038;C077;C085;C108;C116;C122";qwen;phone number;invasive
+257;"C008;C009;C019;C020;C021;C027;C042;C046;C080;C081;C082;C090;C128";qwen;filter calls;neutral
+258;"C008;C009;C019;C020;C021;C027;C042;C046;C082;C090;C128";qwen;filter calls;friendly
+259;"C002;C008;C009;C014;C019;C020;C021;C024;C025;C027;C038;C042;C046;C082;C085;C090;C108;C122;C128";qwen;filter calls;invasive
+260;"C019;C020;C021;C042;C046;C074;C086;C090;C128";qwen;sms;neutral
+261;"C019;C020;C021;C042;C046;C074;C086;C090;C128";qwen;sms;friendly
+262;"C008;C009;C014;C019;C020;C021;C024;C025;C038;C042;C046;C075;C085;C088;C089;C090;C108;C122;C128";qwen;sms;invasive
+263;"C008;C009;C078;C091";qwen;contact;neutral
+264;"C008;C009;C078;C091";qwen;contact;friendly
+265;"C008;C009;C014;C024;C025;C038;C078;C085;C091;C108;C122";qwen;contact;invasive
+266;"C008;C009;C019;C020;C021;C028;C042;C046;C090;C092;C094;C128";qwen;body sensor;neutral
+267;"C008;C009;C019;C020;C021;C042;C046;C090;C092;C094;C113;C128";qwen;body sensor;friendly
+268;"C002;C008;C009;C014;C024;C025;C028;C038;C085;C092;C094;C108;C122";qwen;body sensor;invasive
+269;"C008;C009;C079;C083;C099";qwen;call logs;neutral
+270;"C008;C009;C079;C083;C099";qwen;call logs;friendly
+271;"C008;C009;C079;C083";qwen;call logs;invasive
+272;"C008;C009;C014;C100;C103";qwen;microphone;neutral
+273;"C014;C024;C025;C038;C100;C102;C103;C122";qwen;microphone;friendly
+274;"C014;C019;C020;C021;C024;C025;C035;C038;C042;C046;C090;C100;C102;C103;C122;C128";qwen;microphone;invasive
+275;C106;qwen;clipboard;neutral
+276;C106;qwen;clipboard;friendly
+277;"C019;C020;C021;C024;C025;C035;C038;C042;C046;C085;C090;C106;C108;C122;C128";qwen;clipboard;invasive
+278;"C035;C036;C045;C111";qwen;metadata;neutral
+279;"C035;C036;C045;C111";qwen;metadata;friendly
+280;"C014;C024;C025;C035;C036;C038;C045;C085;C108;C111;C122";qwen;metadata;invasive
+281;"C036;C037;C116";qwen;network data;neutral
+282;C036;qwen;network data;friendly
+283;"C024;C025;C027;C036;C037;C038;C085;C108;C116;C122";qwen;network data;invasive
+284;"C019;C020;C021;C042;C046;C090;C124;C125;C128;C133";qwen;accessibility;neutral
+285;"C019;C020;C021;C042;C046;C090;C124;C125;C128;C133";qwen;accessibility;friendly
+286;"C019;C020;C021;C042;C046;C090;C124;C125;C128;C133";qwen;accessibility;invasive
+287;"C001;C002;C004;C006;C008;C009";falcon3;location;neutral
+288;"C008;C009;C013;C014;C016;C024;C025;C038;C122";falcon3;storage;neutral
+289;"C036;C037;C047;C062";falcon3;instance;neutral
+290;"C001;C002;C008;C009;C014;C027;C045";falcon3;bluetooth;neutral
+291;"C002;C008;C009;C027;C050;C051";falcon3;camera;neutral
+292;"C008;C009;C013;C014";falcon3;file;neutral
+293;"C008;C009;C013;C014";falcon3;overlay;neutral
+294;;falcon3;disturb mode;neutral
+295;"C013;C014;C027";falcon3;phone number;neutral
+296;C027;falcon3;filter calls;neutral
+297;"C045;C075;C087";falcon3;sms;neutral
+298;"C078;C091";falcon3;contact;neutral
+299;"C019;C020;C021;C042;C046;C090;C092;C094;C128";falcon3;body sensor;neutral
+300;"C079;C083";falcon3;call logs;neutral
+301;"C024;C025;C038;C100;C103;C122";falcon3;microphone;neutral
+302;"C013;C019;C020;C021;C042;C046;C090;C106;C128";falcon3;clipboard;neutral
+303;"C019;C020;C021;C035;C042;C046;C090;C128";falcon3;metadata;neutral
+304;"C019;C020;C021;C036;C037;C039;C042;C046;C090;C117;C128";falcon3;network data;neutral
+305;"C019;C020;C021;C042;C046;C090;C128";falcon3;accessibility;neutral
+306;"C002;C007;C019;C020;C021;C042;C046;C090;C113;C128";falcon3;location;friendly
+307;"C013;C014;C016;C019;C020;C021;C024;C025;C038;C042;C046;C090;C122;C128";falcon3;storage;friendly
+308;C037;falcon3;instance;friendly
+309;;falcon3;bluetooth;friendly
+310;"C050;C051";falcon3;camera;friendly
+311;"C013;C014;C024;C025;C038;C122";falcon3;file;friendly
+312;"C047;C058;C062;C113";falcon3;overlay;friendly
+313;"C008;C009;C072";falcon3;disturb mode;friendly
+314;"C008;C009;C078;C091";falcon3;phone number;friendly
+315;"C008;C009;C079;C080;C081;C083";falcon3;filter calls;friendly
+316;"C031;C045;C087;C088;C126";falcon3;sms;friendly
+317;"C027;C078;C080;C081;C091";falcon3;contact;friendly
+318;"C092;C094";falcon3;body sensor;friendly
+319;"C027;C079;C083";falcon3;call logs;friendly
+320;"C016;C017;C100;C101;C103;C113";falcon3;microphone;friendly
+321;"C013;C014";falcon3;clipboard;friendly
+322;"C001;C008;C009;C027;C035";falcon3;metadata;friendly
+323;"C036;C037";falcon3;network data;friendly
+324;;falcon3;accessibility;friendly
+325;"C001;C002;C003;C006;C007;C008;C009;C019;C020;C021;C042;C046;C090;C128";falcon3;location;invasive
+326;"C008;C009;C014;C016;C024;C025;C038;C122";falcon3;storage;invasive
+327;C034;falcon3;instance;invasive
+328;"C001;C008;C009;C014";falcon3;bluetooth;invasive
+329;"C050;C051";falcon3;camera;invasive
+330;"C013;C014;C019;C020;C021;C042;C046;C090;C128";falcon3;file;invasive
+331;"C019;C020;C021;C042;C046;C058;C090;C113;C128";falcon3;overlay;invasive
+332;;falcon3;disturb mode;invasive
+333;"C008;C009;C027;C077";falcon3;phone number;invasive
+334;"C008;C009;C079;C083";falcon3;filter calls;invasive
+335;"C008;C009;C075;C087";falcon3;sms;invasive
+336;"C008;C009;C078;C091";falcon3;contact;invasive
+337;"C096;C113";falcon3;body sensor;invasive
+338;"C008;C009;C079;C083";falcon3;call logs;invasive
+339;"C016;C024;C025;C038;C100;C122";falcon3;microphone;invasive
+340;"C013;C106";falcon3;clipboard;invasive
+341;"C027;C035";falcon3;metadata;invasive
+342;C036;falcon3;network data;invasive
+343;;falcon3;accessibility;invasive
+344;"C001;C002;C007;C008;C009;C113";baidu;location;neutral
+345;"C008;C009;C013;C014;C016;C022;C024;C025;C038;C122";baidu;storage;neutral
+346;"C012;C019;C020;C021;C036;C037;C042;C046;C090;C128";baidu;instance;neutral
+347;"C002;C008;C009;C045;C113";baidu;bluetooth;neutral
+348;"C008;C009;C050;C051;C113";baidu;camera;neutral
+349;"C008;C009;C013;C014;C015;C022";baidu;file;neutral
+350;"C058;C059;C060";baidu;overlay;neutral
+351;C071;baidu;disturb mode;neutral
+352;"C008;C009;C027;C080;C081";baidu;phone number;neutral
+353;"C008;C009;C027;C074;C084;C086";baidu;filter calls;neutral
+354;"C074;C075;C086;C088";baidu;sms;neutral
+355;"C008;C009;C078;C091";baidu;contact;neutral
+356;"C008;C009;C092;C094;C113";baidu;body sensor;neutral
+357;"C008;C009;C027;C079;C083;C099";baidu;call logs;neutral
+358;"C008;C009;C013;C014;C024;C025;C038;C100;C102;C103;C122";baidu;microphone;neutral
+359;C106;baidu;clipboard;neutral
+360;C035;baidu;metadata;neutral
+361;"C036;C037";baidu;network data;neutral
+362;"C019;C020;C021;C042;C046;C090;C124;C125;C128;C133";baidu;accessibility;neutral
+363;"C001;C002;C004;C006;C007;C008;C009;C035;C050;C051";baidu;location;friendly
+364;"C008;C009;C013;C014;C016;C022;C024;C025;C038;C122";baidu;storage;friendly
+365;"C008;C009;C023;C032;C034;C037;C114";baidu;instance;friendly
+366;"C001;C002;C008;C009;C042;C046";baidu;bluetooth;friendly
+367;"C008;C009;C050;C051;C113";baidu;camera;friendly
+368;"C008;C009;C013";baidu;file;friendly
+369;"C047;C058;C059;C060;C062";baidu;overlay;friendly
+370;"C008;C009;C064;C069;C071";baidu;disturb mode;friendly
+371;"C027;C077";baidu;phone number;friendly
+372;"C027;C074;C080;C081;C082;C086";baidu;filter calls;friendly
+373;"C008;C009;C074;C075;C086;C088";baidu;sms;friendly
+374;"C008;C009;C078;C091";baidu;contact;friendly
+375;"C008;C009;C092;C094;C113";baidu;body sensor;friendly
+376;"C008;C009;C079;C083;C099";baidu;call logs;friendly
+377;"C013;C014;C100;C102;C103";baidu;microphone;friendly
+378;"C008;C009;C105;C106";baidu;clipboard;friendly
+379;"C035;C110";baidu;metadata;friendly
+380;"C002;C036;C037";baidu;network data;friendly
+381;"C019;C020;C021;C042;C046;C090;C116;C124;C125;C128;C131;C132;C133";baidu;accessibility;friendly
+382;"C001;C002;C003;C004;C006;C008;C009";baidu;location;invasive
+383;"C008;C009;C013;C014;C016";baidu;storage;invasive
+384;"C008;C009;C036;C037;C039;C040;C117";baidu;instance;invasive
+385;"C002;C008;C009;C019;C020;C021;C041;C042;C045;C046;C048;C090;C128";baidu;bluetooth;invasive
+386;"C013;C014;C050;C051";baidu;camera;invasive
+387;"C008;C009;C013;C014;C015";baidu;file;invasive
+388;"C036;C037;C047;C058;C059;C060;C062";baidu;overlay;invasive
+389;"C002;C008;C009;C027;C071;C113";baidu;disturb mode;invasive
+390;"C008;C009;C035;C078;C091";baidu;phone number;invasive
+391;"C008;C009;C014;C019;C020;C021;C024;C025;C027;C042;C046;C074;C084;C085;C086;C090;C098;C108;C128";baidu;filter calls;invasive
+392;"C008;C009;C019;C020;C021;C032;C042;C046;C074;C075;C086;C088;C089;C090;C128";baidu;sms;invasive
+393;"C008;C009;C027;C078;C091";baidu;contact;invasive
+394;"C002;C008;C009";baidu;body sensor;invasive
+395;"C008;C009;C027;C079;C083";baidu;call logs;invasive
+396;"C008;C009;C013;C014;C100;C102;C103";baidu;microphone;invasive
+397;"C008;C009;C019;C020;C021;C042;C046;C090;C105;C106;C128";baidu;clipboard;invasive
+398;"C008;C009;C027;C028;C035;C110;C113;C114";baidu;metadata;invasive
+399;"C035;C036;C037;C121";baidu;network data;invasive
+400;"C008;C009;C084;C116;C124;C125;C131;C133";baidu;accessibility;invasive
