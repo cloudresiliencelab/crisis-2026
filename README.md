@@ -1,6 +1,6 @@
 # Reproducibility
 
-This folder contains raw data and a single entry script to reproduce the quantitative results and figures for the ESEM paper (PrivLLMs).
+This folder contains raw data and a single entry script to reproduce the quantitative results and figures for the CRiSIS paper (PrivLLMs).
 
 ## Quick start
 
